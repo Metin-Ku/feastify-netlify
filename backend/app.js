@@ -32,7 +32,7 @@ const corsOptions = {
           'http://localhost:4173',
           'http://localhost:4173',
         ]
-      : 'https://feastify-netlify.onrender.com',
+      : 'https://feastify-netlify.vercel.app',
   credentials: true, // Allow cookies to be included in requests
   methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'], // Specify allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
