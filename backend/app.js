@@ -109,6 +109,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/api/v1/example', (req, res) => {
+  res.send('Bu bir örnek API endpointidir.');
+});
+
 // 3) ROUTES
 app.use('/api/v1/recipes', recipeRouter);
 
