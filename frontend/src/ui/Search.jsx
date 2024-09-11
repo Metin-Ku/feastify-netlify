@@ -5,7 +5,7 @@ import { useSearchParams } from 'react-router-dom';
 
 
 function Search() {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState('pizza');
   const [searchParams, setSearchParams] = useSearchParams();
 
   function handleSearch(e) {
