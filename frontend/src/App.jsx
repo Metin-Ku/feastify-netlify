@@ -36,6 +36,7 @@ function App() {
             <Route element={<AppLayout />}>
               <Route index element={<Navigate replace to='dashboard' />} />
               <Route path='recipe/:recipeId' element={<Content />} />
+              <Route path='*' element={<Navigate to='/' replace />} />
             </Route>
             {/* <Route path="login" element={<Login />} /> */}
             {/* <Route path="*" element={<PageNotFound />} /> */}
