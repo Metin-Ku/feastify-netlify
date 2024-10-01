@@ -4,7 +4,7 @@ console.log("yyyyyyyyyyyyyyyyyyyyyyyyyy");
 const https = require("https");
 console.log("mmmmmmmmmmmmmmmmmmmmmmmmmmm");
 
-const backendUrl = "https://feastifyv2.onrender.com/api/v1/example";
+const backendUrl = "https://feastifyv2-mdmh.onrender.com/api/v1/example";
 const job = new cron.CronJob("*/14 * * * *", function () {
   console.log("Restarting server");
 
